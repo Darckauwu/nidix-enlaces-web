@@ -9,8 +9,11 @@ footer{
 	background: black;
 	color: white;
 	text-align: center;
+	font-size: 14px;
 	height: 30px;
+	width: 85%;
 	line-height: 30px;
+	margin-left: 15%;
 }
 li{
 	list-style: none;
@@ -24,12 +27,14 @@ a{
 	margin: 0px auto;
 }
 .cuerpo{
-	height: 713px;
+	height: 1000px;
 }
 .cabecera{
-	background: #ff9e1b;
-	height: 50px;.
 	border-bottom: 1px solid black;
+	background: #ff9e1b;
+	height: 50px;
+	width: 100%;
+	position: fixed;
 }
 .logonidix{
 	width: 15%;
@@ -50,11 +55,11 @@ a{
 	line-height: 50px;
 }
 .sidebar{
-	outline: 1px solid #000000;
+	border: 1px solid #000000;
 	float: left;
 	width: 15%;
-	background: #212121;
-	height: 100%;
+	background: #2e2e2e;
+	height: 1000px;
 }
 .menu-sidebar{
 	float: left;
@@ -63,10 +68,14 @@ a{
 	text-align: center;
 	line-height: 40px;
 	color: white;
-	background: #303030;
+	background: #4a4a4a;
 	border-bottom: 1px solid black;
 }
+.menu-sidebar:hover{
+	background: #636363;
+}
 .main{
+	margin-top: 40px;
 	outline: 1px solid #000000;
 	float: right;
 	width: 85%;
@@ -103,10 +112,13 @@ a{
 	height: 80px;
 	text-align: center;
 	line-height: 80px;
-	background: #a6a6a6;
+	background: #b3b3b3;
 	color: white;
 	box-shadow: 5px 5px 10px #888888;
 	outline: 1px solid #808080;
+}
+.seccionesprincipal:hover{
+	background: #a6a6a6;
 }
 .enlaces{
 	margin-top: 20px;
@@ -114,7 +126,7 @@ a{
 	padding-left: 1%;
 	width: 99%;
 	background: #faf7f2;
-	height: 100px;
+	height: 200px;
 	float: left;
 	box-shadow: 5px 5px 10px #888888;
 }
